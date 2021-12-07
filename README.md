@@ -1,13 +1,15 @@
-# SoftCopy-of-CoreCSEBooks
-
-This repo consist of some E-Pdfs of books that are part of CSE curriculum such as:
+# SoftCopy of Books and Notes
 
 1. Database Management Systems by Navathe
 
-2. Dennis Ritchie for C Programming Language
+2. Dennis Ritchie 
 
-3. Let Us C for C Programming Language
+3. Let Us C 
 
-4. Software Engineering Quick Revision Slides
+4. Software Engineering Notes
 
-5. Java Programming College Notes
+5. Java Programming Notes
+
+6. Aptitude Books
+
+7. Git Notes
