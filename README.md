@@ -1,19 +1,19 @@
 # SoftCopy of Books and Notes
 
-1. Database Management Systems by Navathe
+1. Aptitude Books 
 
-2. Dennis Ritchie 
+2. Interview Experiences of Batch 2022 Banasthali Vidyapith 
 
-3. Let Us C 
+3. Java Programming Notes 
 
-4. Software Engineering Notes
+4. Resources from LinkedIn posts for Interview Preparation 
 
-5. Java Programming Notes
+5. Database Management Systems by Navathe
 
-6. Aptitude Books
+6. Dennis Ritchie 
 
 7. Git Notes
 
-8. Interview Experiences of Batch 2022 Banasthali Vidyapith
+8. Let Us C 
 
-9. Resources from LinkedIn posts for Interview Preparation
+9. Software Engineering Notes
