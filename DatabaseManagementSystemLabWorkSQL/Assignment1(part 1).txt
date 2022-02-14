@@ -1,0 +1,97 @@
+1)
+a)
+CREATE TABLE client_master(
+client_no varchar2(6),
+name varchar2(20),
+city varchar2(15),
+pin_code number(6),
+state varchar2(15),
+bal_due number(10,2)
+);
+b)
+CREATE TABLE product_master(
+product_no varchar2(6),
+description varchar2(15),
+profit_percent number(4,2),
+unit_measure varchar2(10),
+qty_on_hand number(8),
+reorder_lvl number(8),
+sell_price number(8,2),
+cost_price number(8,2)
+);
+c)
+CREATE TABLE salesman_master(
+salesman_no varchar2(6),
+salesman_name varchar2(20),
+address1 varchar2(30),
+address2 varchar2(30),
+city varchar2(20),
+pin_code number(6),
+state varchar2(20),
+sal_amt number(8,2),
+target_to_get number(6,2),
+ach_sales number(6,2),
+remarks varchar2(60)
+);
+
+2)
+a)
+INSERT INTO client_master VALUES(
+'C0001','IVAN BAYROSS','MUMBAI',400054,'MAHARASHTRA',15000
+);
+INSERT INTO client_master VALUES(
+'C00002','MAMTA MAZUMDAR','MADRAS',780001,'TAMIL NADU',0
+);
+INSERT INTO client_master VALUES(
+'C00003','CHHAYA BANKAR','MUMBAI',400057,'MAHARASHTRA',5000
+);
+INSERT INTO client_master VALUES(
+'C00004','ASHWINI JOSHI','BANGALORE',560001,'KARNATAKA',0
+);
+INSERT INTO client_master VALUES(
+'C00005','HANSEL COLACO','MUMBAI',400060,'MAHARASHTRA',2000
+);
+INSERT INTO client_master VALUES(
+'C00006','DEEPAK SHARMA','MANGALORE',560050,'KARNATAKA',0
+);
+b)
+INSERT INTO product_master VALUES(
+'P00001','T-SHIRTS',5,'PIECE',200,50,350,250
+);
+INSERT INTO product_master VALUES(
+'P0345','SHIRTS',6,'PIECE',150,50,500,350
+);
+INSERT INTO product_master VALUES(
+'P06734','COTTON JEANS',5,'PIECE',100,20,600,450
+);
+INSERT INTO product_master VALUES(
+'P07865','JEANS',5,'PIECE',100,20,750,500
+);
+INSERT INTO product_master VALUES(
+'P07868','TROUSERS',2,'PIECE',150,50,850,550
+);
+INSERT INTO product_master VALUES(
+'P07885','PULL OVERS',2.5,'PIECE',80,30,700,450
+);
+INSERT INTO product_master VALUES(
+'P07965','DENIM SHIRTS',4,'PIECE',100,40,350,250
+);
+INSERT INTO product_master VALUES(
+'P07975','LYCRA TOPS',5,'PIECE',70,30,300,175
+);
+INSERT INTO product_master VALUES(
+'P08865','SKIRTS',5,'PIECE',75,30,450,300
+);
+C)
+INSERT INTO salesman_master VALUES(
+'S00001','AMAN','A/14','WORLI','MUMBAI',40002,'MAHARASHTRA',3000,100,50,'GOOD'
+);
+INSERT INTO salesman_master VALUES(
+'S00002','OMKAR',65,'NARIMAN','MUMBAI',400001,'MAHARASHTRA',3000,200,100,'GOOD'
+);
+INSERT INTO salesman_master VALUES(
+'S00003','RAJ','P-7','BANDRA','MUMBAI',400032,'MAHARASHTRA',3000,200,100,'GOOD'
+);
+INSERT INTO salesman_master VALUES(
+'S00004','ASHISH','A/5','JUHU','MUMBAI',400044,'MAHARASHTRA',3500,200,150,'GOOD'
+);
