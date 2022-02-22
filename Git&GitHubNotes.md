@@ -90,10 +90,13 @@ git stash clear command
 <img width="436" alt="image" src="https://user-images.githubusercontent.com/92745924/155081635-5a24db11-3e05-49a0-a1fc-c3bf84cc7ada.png">
 - Use of the branches.
 One should never commit at the main/master branch because it's used by open-source deveopers, and your code which is not been finalized might consists of some bugs so should go on separate branch so that users aren't affected.
+
 - Creating new branch.
 git branch branchName
+
 - Head.
 All the new features that you're adding will be added up to the branch where head (*) is pointed to.
+
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/92745924/155084448-5d5cd377-822d-432e-9a50-66bb9e478b75.png">
 - You are not the only one who are contributing to the codebase, to direct some other developer to the main branch and not to your's then:
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/92745924/155085156-0bd8b420-7c5f-4bf9-80e1-35eab6a7a058.png">
@@ -121,8 +124,10 @@ iv) ORIGIN URL : to your own account
 (You can push to origin URL i.e. your's URL but not to the upstream URL)
 (Whenever you are having some new feature create new branch as well as pull request)
 Reason: Because a new branch can only be created if we have new pull request!!!
+
 - Removing the commit from pull request by force
 git reset previous one's ID->git add . -> git unstash -> git push origin branchName -f
+
 - Merge conflict
 Suppose khushboo made change in line 2 and I too made some change in line 2 then git will get confused to accept whose's change
 it will ask for help.
